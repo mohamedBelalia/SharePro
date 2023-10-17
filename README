@@ -1,0 +1,9 @@
+CREATE TABLE products (
+    imgName VARCHAR(255),
+    productName VARCHAR(255),
+    productDescription TEXT,
+    productPrice DECIMAL(10, 2),
+    createdAt TIMESTAMP,
+    ownerId INT,
+    ownerName VARCHAR(255)
+);

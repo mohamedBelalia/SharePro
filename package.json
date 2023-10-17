@@ -1,0 +1,19 @@
+{
+  "name": "sharepic",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.php"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.4"
+  },
+  "dependencies": {
+    "prettier": "^3.0.3"
+  },
+  "description": ""
+}

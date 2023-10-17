@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .card{
+        @apply
+        bg-white text-gray-700
+        w-72 min-h-[10rem]
+        shadow-lg rounded-md overflow-hidden
+    }
+    .badge{
+        @apply
+        px-3 py-1 rounded-full text-xs bg-gray-200 
+     }
+
+    .product-title{
+        @apply
+        font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap
+    }
+
+    .button-primary{
+        @apply
+        bg-yellow-500/80 hover:bg-yellow-500/90 px-6 py-2 rounded-md text-white font-medium tracking-wider transition
+    }
+    .button-secondary{
+        @apply
+        bg-[#0c4a6e] text-white p-2 mt-4 rounded-md
+    }
+
+    .button-icon{
+        @apply
+        flex-grow flex justify-center items-center bg-gray-400/60 hover:bg-gray-400/80 tracking-wider rounded-md transition
+    }
+}
